@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografia - Primeira Atividade ADS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Criptografia AES</h1>
+    <textarea id="message" placeholder="Digite sua mensagem..."></textarea>
+    <input type="text" id="key" placeholder="Digite a chave (16 caracteres)">
+    <div class="buttons">
+      <button id="encrypt">Cifrar</button>
+      <button id="decrypt">Decifrar</button>
+    </div>
+    <textarea id="output" readonly placeholder="Resultado..."></textarea>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</body>
+</html>
